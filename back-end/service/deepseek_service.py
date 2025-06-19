@@ -2,7 +2,7 @@ from openai import OpenAI
 
 class DeepseekServer:
     def __init__(self):
-        DEEPSEEK_API_KEY = "sk-1cb0cdf2543746f7b0b026e809461278"
+        DEEPSEEK_API_KEY = "deepseek-api-key"
         DEEPSEEK_API_URL = "https://api.deepseek.com"
         self.client = OpenAI(api_key=DEEPSEEK_API_KEY, base_url=DEEPSEEK_API_URL)
 

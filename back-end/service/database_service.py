@@ -7,7 +7,7 @@ import json
 
 class Mapper:
     def __init__(self):
-        self.engine = create_engine("mysql+pymysql://root:543416Liu*@localhost/BI_PROJECT")
+        self.engine = create_engine("mysql+pymysql://username:password@localhost/BI_PROJECT")
     
     '''
     功能：获取当前时序
